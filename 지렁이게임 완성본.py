@@ -3,7 +3,6 @@
 # pygame : 파이썬으로 간단한 고전 게임을 만들 수 있는 오픈 소스 입니다.
 
 # pip install pygame: 설치해야지 모듈이 있습니다.
-a =[1]
 from lib2to3.pgen2.literals import evalString
 import sys
 import pygame
@@ -11,7 +10,6 @@ import random
 from pygame.locals import QUIT , Rect , KEYDOWN ,\
     K_LEFT , K_RIGHT , K_UP , K_DOWN
  
-
 
 pygame.init()
 pygame.key.set_repeat(5,5)
