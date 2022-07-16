@@ -84,7 +84,7 @@ def main():
             del foods[foods.index(head)] # del : 리스트에서 삭제 # index(대상) : 값의 위치를 찾아줌            
             먹이만들기()  # 한 먹이를 먹어서 그 먹이가 삭제될 때마다 먹이를 다시 만들어주는 것
             #게임 클리어(먹이를 20개 먹었을 때)
-        if len(earthworms) == 50:
+        if len(earthworms) == 20:
             배경.blit(clear_text , (255,300))
             pygame.display.update()
             pygame.time.delay(2000)
