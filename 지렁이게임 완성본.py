@@ -54,7 +54,7 @@ def 라인그리기():
 
 
 def main():
-    for i in range(100): #먹이를 여러개 만들기 위해 반복문 사용
+    for i in range(10): #먹이를 여러개 만들기 위해 반복문 사용
         먹이만들기()
     key = K_DOWN
     while True:
